@@ -8,13 +8,21 @@ title = "Touchy Hugo | Minimal Blog Theme"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 2
-[[menu.main]]
 name = "About"
 url = "about"
 weight = 1
+[[menu.main]]
+name = "Elemetns"
+url = "elements"
+weight = 2
+[[menu.main]]
+name = "Terms & Conditions"
+url = "terms-conditions"
+weight = 3
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 4
 [outputs]
 home = ["HTML", "RSS"]
 [params]
@@ -25,7 +33,7 @@ custom_script = ""
 description = "This is meta description"
 email = "info@email.com"
 favicon = "images/favicon.png"
-logo = "images/logo.png"
+logo = "images/logo"
 logo_width = "100px"
 mobile = "+211234565523"
 [params.cookies]
